@@ -21,6 +21,10 @@ ul,li,a{
     display: inline-block;
     padding: 0 5px;
 }
+
+body{
+    margin: 0 auto;
+}
 /*#endregion common*/
 
 /*#region utilities*/
@@ -48,21 +52,17 @@ ul,li,a{
 
 }
 
+.d-wrap{
+    flex-wrap: wrap;
+}
+
 
 /*#endregion utilities*/
 
 
-
-/*#region debug */
-
-/*#endregion debug*/
-
-body{
-    margin: 0 auto;
-}
-.debug #site_header .navigation{
-    background: yellow;
-    height: 75px;       /*valori nn debug*/
+/*#region header*/
+ #site_header .navigation{
+    height: 75px;       
     width: 100%;   
     justify-content: space-around;
     position: relative;
@@ -77,16 +77,6 @@ ul.menu {
     line-height: 50px;
 }
 
-.logo{
-    background-color: red;
-}
-.menu{
-    background-color: red;
-}
-.btn{
-
-}
-
 .hidden{ 
     content-visibility: hidden;  /*nella media query faccio apparire nav*/
     position: fixed;
@@ -94,4 +84,30 @@ ul.menu {
     right: 0;
 }
 
+/*#endregion header*/
 
+
+/*#region debug */
+
+/*#endregion debug*/
+
+
+.debug #site_header .navigation{
+    background: yellow;
+}
+
+.debug section.features{
+    background: orange;
+    height: 400px;
+}
+
+.logo{
+    background-color: red;
+}
+.menu{
+    background-color: red;
+}
+
+.card{
+    border: 3px solid palevioletred;
+}
