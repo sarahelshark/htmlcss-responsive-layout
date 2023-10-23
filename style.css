@@ -19,6 +19,7 @@ ul,li,a{
     list-style: none;
     text-decoration: none;
     display: inline-block;
+    padding: 0 5px;
 }
 /*#endregion common*/
 
@@ -70,6 +71,10 @@ body{
 .navigation.d-flex {
     align-content: center;
     flex-wrap: wrap;
+}
+ul.menu {
+    font-size: 15px;
+    line-height: 50px;
 }
 
 .logo{
