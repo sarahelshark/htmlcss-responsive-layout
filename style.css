@@ -117,3 +117,11 @@ ul.menu {
     aspect-ratio: 1 / 1;
     background-color: blue;
 }
+
+.col-12{
+    width: calc(100%/5);
+}
+
+.p-2{
+    padding: 2rem;
+}
