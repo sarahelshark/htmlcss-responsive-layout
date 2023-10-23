@@ -1,0 +1,51 @@
+/*#region common*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root{
+    --resp-primary:#9792E4;
+    --respo-secondary:#0084FD;
+    --respo-accent:#FCC061;
+    --respo-light:#FFFFFF;
+    --respo-dark:#212121;
+    --respo-secondary-dark:#333333;  /*footer*/
+    --respo-text:#787878;
+}
+
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+/*#endregion common*/
+
+/*#region utilities*/
+
+.d-flex{
+    display: flex;
+}
+
+.btn-light{
+
+}
+
+.btn-dark{
+
+}
+
+.btn-small{
+
+}
+
+.btn-large{
+    
+}
+/*#endregion utilities*/
+
+
+
+/*#region debug */
+
+/*#endregion debug*/
