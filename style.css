@@ -96,9 +96,10 @@ ul.menu {
     background: yellow;
 }
 
-.debug section.features{
+.container{
     background: orange;
     height: 400px;
+    justify-content: center;
 }
 
 .logo{
@@ -108,6 +109,11 @@ ul.menu {
     background-color: red;
 }
 
+.row{
+    width: 90%;
+}
 .card{
-    border: 3px solid palevioletred;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    background-color: blue;
 }
