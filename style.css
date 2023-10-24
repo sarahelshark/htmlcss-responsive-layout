@@ -108,7 +108,7 @@ ul.menu {
 }
 
 .hidden{ 
-    content-visibility: hidden;  /*nella media query faccio apparire nav*/
+    display:none;   /*content-visibility: hidden; n ella media query faccio apparire nav*/
     position: fixed;
     top: 0;
     right: 0;
