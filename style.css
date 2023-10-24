@@ -127,6 +127,11 @@ ul.menu {
 }
 /*#endregion goals-second section*/
 
+/*#region testimonials-third section*/
+.testimonials.row.p-2 {
+    flex-direction: column;
+}
+/*#endregion testimonials-third section*/
 /*#region debug */
 
 .debug #site_header .navigation{
