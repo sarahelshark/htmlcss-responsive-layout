@@ -95,33 +95,38 @@ ul.menu {
 .debug #site_header .navigation{
     background: yellow;
 }
-
-.container{
-    background: orange;
-    height: 400px;
-    justify-content: center;
-}
-
 .logo{
     background-color: red;
 }
 .menu{
     background-color: red;
+
+}.container {
+    background: orange;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 - 2rem;
+    
 }
 
-.row{
-    width: 90%;
-}
-.card{
-    height: 50px;
-    aspect-ratio: 1 / 1;
-    background-color: blue;
+[class^="col-"]{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .col-12{
-    width: calc(100%/5);
+    width: calc(100% / 5);
+    background-color: green;
+    height: 100px;
 }
-
 .p-2{
     padding: 2rem;
 }
