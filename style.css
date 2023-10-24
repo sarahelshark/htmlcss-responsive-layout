@@ -34,7 +34,7 @@ body{
 
 /*#region utilities*/
 *img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .d-flex{
