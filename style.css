@@ -59,15 +59,18 @@ body{
 
 }
 
-.d-wrap{
-    flex-wrap: wrap;
-}
+
 .container {
     width: 100%;
     justify-content: center;
     flex-direction: row;
     /*align-items: center;*/
 }
+.dark-container{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+ }
 
 .row {
     display: flex;
@@ -77,6 +80,13 @@ body{
     width: 60%;
 }
 
+.row-no-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    width: 60%;
+}
 /*#endregion utilities*/
 
 
@@ -112,15 +122,12 @@ ul.menu {
 /*#endregion featutings- firstsection*/
 
 /*#region goals-second section*/
-section.container.d-flex {
-    background: violet;
+.strategic , .development{
+    width: 50%;
 }
 /*#endregion goals-second section*/
 
 /*#region debug */
-
-/*#endregion debug*/
-
 
 .debug #site_header .navigation{
     background: yellow;
@@ -147,10 +154,12 @@ section.container.d-flex {
     width: 580px;
 }
 
-.dark-container{
+.debug .dark-container{
    background-color: yellowgreen;
-   width: 100%;
-   justify-content: center;
-   flex-direction: row;
+   
 }
+
+
+
+/*#endregion debug*/
 
