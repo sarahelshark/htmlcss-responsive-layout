@@ -107,15 +107,16 @@ ul.menu {
 .container {
     background: orange;
     width: 100%;
-    height: 400px;
+    height: 200px;
     justify-content: center;
     flex-direction: row;
     /*align-items: center;*/
 }
-.row{  /*margin: 0 - 2rem;*/
+
+.row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 [class^="col-"]{
@@ -133,3 +134,4 @@ ul.menu {
     border: 2px solid green;
     height: 100px;
 }
+
