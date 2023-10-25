@@ -188,26 +188,6 @@ nav.hidden a{
 /*#endregion debug*/
 
 /*MEDIA QUERY- desktop first*/
-
-@media screen and (max-width:512px){
-    .row {
-        width: 90%;
-        flex-direction: column;
-    }
-    
-   .debug .col-4 {
-       width: 100%;
-    }
-    .debug .col-8 {
-        width: 100%;
-     }
-
-}
-@media screen and (max-width:746px) {
-    .row {
-        width: 90%;
-    }
-}
 @media screen and (max-width:810px){
     .logo {
         position: fixed;
@@ -227,7 +207,23 @@ nav.hidden a{
         padding: 1rem;
     }
 }
+@media screen and (max-width:746px) {
+    .row {
+        width: 90%;
+    }
+}
 
+@media screen and (max-width:512px){
+    .row {
+        width: 90%;
+        flex-direction: column;
+    }
+    
+   .debug .col-4 {
+       width: 100%;
+    }
+    .debug .col-8 {
+        width: 100%;
+     }
 
-
-
+}
