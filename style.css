@@ -25,6 +25,7 @@ ul,li,a{
 body{
     margin: 0 auto;
     min-width: 320px;
+    font-family: 'Roboto', sans-serif;
 }
 
 [class^="col-"]{
@@ -88,6 +89,13 @@ body{
     flex-wrap: nowrap;
     width: 60%;
 }
+
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
 /*#endregion utilities*/
 
 
@@ -97,6 +105,7 @@ body{
     width: 100%;   
     justify-content: space-around;
     position: relative;
+    background-color: var(--respo-secondary);
 }
 
 .navigation.d-flex {
@@ -108,13 +117,22 @@ ul.menu {
     line-height: 50px;
 }
 
-
+.menu li a:not(button){
+    color: var(--respo-light);
+}
+/*.menu :last-child{
+    color: black;
+}*/
 .hidden{ 
     
     display:none;   /*content-visibility: hidden; n ella media query faccio apparire nav*/
     position: fixed;
     top: 0;
     right: 0;
+}
+
+nav.hidden a{
+    color: var(--respo-light);
 }
 
 
