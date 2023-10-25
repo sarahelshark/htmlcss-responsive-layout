@@ -166,15 +166,16 @@ nav.hidden a{
     background: violet;
 }
 
+
 .debug .col-4{
     border: 2px solid green;
     height: 150px;
-    width: 250px;
+    width: 30%;
 }
 .debug .col-8{
     border: 2px solid green;
     height: 150px;
-    width: 580px;
+    width: 65%;
 }
 
 .debug .dark-container{
@@ -188,6 +189,25 @@ nav.hidden a{
 
 /*MEDIA QUERY- desktop first*/
 
+@media screen and (max-width:512px){
+    .row {
+        width: 90%;
+        flex-direction: column;
+    }
+    
+   .debug .col-4 {
+       width: 100%;
+    }
+    .debug .col-8 {
+        width: 100%;
+     }
+
+}
+@media screen and (max-width:746px) {
+    .row {
+        width: 90%;
+    }
+}
 @media screen and (max-width:810px){
     .logo {
         position: fixed;
@@ -208,7 +228,6 @@ nav.hidden a{
     }
 }
 
-@media screen and (max-width:375px){
-    
-}
+
+
 
