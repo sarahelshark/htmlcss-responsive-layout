@@ -117,12 +117,13 @@ ul.menu {
     line-height: 50px;
 }
 
-.menu li a:not(button){
+.menu li a{
     color: var(--respo-light);
 }
-/*.menu :last-child{
-    color: black;
-}*/
+.menu li button a {
+    color: var(--respo-dark);
+}
+
 .hidden{ 
     
     display:none;   /*content-visibility: hidden; n ella media query faccio apparire nav*/
