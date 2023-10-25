@@ -24,6 +24,7 @@ ul,li,a{
 
 body{
     margin: 0 auto;
+    min-width: 320px;
 }
 
 [class^="col-"]{
@@ -107,7 +108,9 @@ ul.menu {
     line-height: 50px;
 }
 
+
 .hidden{ 
+    
     display:none;   /*content-visibility: hidden; n ella media query faccio apparire nav*/
     position: fixed;
     top: 0;
@@ -140,10 +143,6 @@ ul.menu {
 .debug .logo{
     background-color: red;
 }
-.debug .menu{
-    background-color: red;
-
-}
 .debug section.container.d-flex {
     background: violet;
 }
@@ -167,4 +166,30 @@ ul.menu {
 
 
 /*#endregion debug*/
+
+/*MEDIA QUERY- desktop first*/
+
+@media screen and (max-width:810px){
+    .logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+    }
+    ul.menu {
+        display: none;
+    }
+    .hidden {
+        /* display: none; */
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    
+}
 
