@@ -228,6 +228,9 @@ nav.hidden a{
    .debug .col-4 {
        width: 100%;
     }
+    .debug .col-6 {
+        width: 100%;
+     }
     .debug .col-8 {
         width: 100%;
      }
