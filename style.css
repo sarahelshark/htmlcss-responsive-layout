@@ -76,6 +76,7 @@ body{
 .row {
     display: flex;
     /*gap: 1rem;*/
+    width: 65%;
     flex-wrap: wrap;
     margin:0 - 1rem:
 }
@@ -228,6 +229,10 @@ nav.hidden a{
         flex-wrap: nowrap;
         width: 75%;
     }
+
+    .row{
+        width: 75%;
+    }
 }
 @media screen and (max-width:810px){
     .logo {
@@ -269,6 +274,10 @@ nav.hidden a{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .row{
+        width: 85%;
     }
 }
 @media screen and (max-width:746px) {
