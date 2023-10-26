@@ -143,7 +143,15 @@ nav.hidden a{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
+.col-4{
+    width: calc(100% / 12 * 4)
+}
+.col-8{
+    width: calc(100% / 12 * 7);
+}
+ .col-6{
+    width: calc(100% / 12 * 5);
+}
 /*#endregion featutings- firstsection*/
 
 /*#region goals-second section*/
@@ -196,7 +204,7 @@ nav.hidden a{
 /*MEDIA QUERY- desktop first*/
 @media screen and (max-width:810px){
     .logo {
-        position: fixed;
+        position:absolute;
         top: 0;
         left: 0;
         padding: 1rem;
@@ -207,7 +215,7 @@ nav.hidden a{
     .hidden {
         /* display: none; */
         display: flex;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
         padding: 1rem;
@@ -225,13 +233,13 @@ nav.hidden a{
         flex-direction: column;
     }
     
-   .debug .col-4 {
+   .col-4 {
        width: 100%;
     }
-    .debug .col-6 {
+    .col-6 {
         width: 100%;
      }
-    .debug .col-8 {
+    .col-8 {
         width: 100%;
      }
 
