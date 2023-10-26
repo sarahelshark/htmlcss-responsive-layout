@@ -83,7 +83,6 @@ body{
 .row-no-wrap {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
     flex-wrap: nowrap;
     width: 60%;
 }
@@ -158,6 +157,19 @@ nav.hidden a{
 .strategic , .development{
     width: 50%;
 }
+
+.strategic{
+    align-items: flex-end;
+    padding: 1rem;
+}
+.development{
+    align-items: flex-start;
+    padding: 3rem;
+}
+ .row-no-wrap .development{
+    border-radius: 25px;
+    aspect-ratio: 16 / 9 ;
+}
 /*#endregion goals-second section*/
 
 /*#region testimonials-third section*/
@@ -197,7 +209,9 @@ nav.hidden a{
    
 }
 
-
+.debug .row-no-wrap .development{
+    background-color: wheat;
+}
 
 /*#endregion debug*/
 
