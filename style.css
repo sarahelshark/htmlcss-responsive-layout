@@ -179,8 +179,18 @@ nav.hidden a{
 /*#endregion goals-second section*/
 
 /*#region testimonials-third section*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
 .testimonials.row.p-2 {
     flex-direction: column;
+}
+
+.col-3{
+    margin-bottom: 0.5rem;
 }
 /*#endregion testimonials-third section*/
 /*#region debug */
@@ -217,6 +227,9 @@ nav.hidden a{
 
 .debug .row-no-wrap .development{
     background-color: wheat;
+}
+.debug .col-3{
+    border: 1px dashed black;
 }
 
 /*#endregion debug*/
