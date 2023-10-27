@@ -236,6 +236,29 @@ section.call-to-action.d-flex {
 }
 /*#endregion call to action- last section*/
 
+/*#region footer*/
+ #site_footer{
+    height: 200px;
+    background-color: var(--respo-secondary-dark);
+    color: var(--respo-light);
+ }
+
+ .lg-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+section.last.d-flex {
+    justify-content: center;
+}
+.lg-container.p-2 {
+    align-items: center;
+}
+
+/*#endregion footer*/
+
 /*#region debug */
 
 .debug #site_header .navigation{
