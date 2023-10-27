@@ -205,7 +205,13 @@ nav.hidden a{
     justify-content: center;
 }
 .card.d-flex.direction-column {
-    width: 50%;
+    width: calc((100% / 12) * 3);
+}
+.card.d-flex.direction-column.p-2 {
+    margin: 10px;
+}
+button.more.btn {
+    width: 40%;
 }
 /*#endregion working- fourth section*/
 
@@ -248,6 +254,13 @@ nav.hidden a{
     border: 1px dashed black;
 }
 
+.debug .card.d-flex.direction-column.p-2 {
+    background: aqua;
+
+}
+.debug button.more.btn {
+    background: violet;
+}
 /*#endregion debug*/
 
 /*MEDIA QUERY- desktop first*/
@@ -261,6 +274,13 @@ nav.hidden a{
 
     .row{
         width: 75%;
+    }
+
+    .card.d-flex.direction-column.p-2 {
+        width: 30%;
+    }
+    button.more.btn {
+        width: 45%;
     }
 }
 @media screen and (max-width:810px){
@@ -308,6 +328,12 @@ nav.hidden a{
     .row{
         width: 85%;
     }
+    .card.d-flex.direction-column.p-2 {
+        width: 45%;
+    }
+    .row.p-2 {
+        padding: 0.5rem;
+    }
 }
 @media screen and (max-width:746px) {
     .row {
@@ -318,6 +344,12 @@ nav.hidden a{
     }
     .row-no-wrap {
         width: 80%;
+    }
+    .card.d-flex.direction-column.p-2 {
+        width: 80%;
+    }
+    .row.p-2 {
+        padding: 0.5rem;
     }
 }
 
@@ -342,5 +374,11 @@ nav.hidden a{
     }
     .row-no-wrap {
         width: 90%;
+    }
+    .card.d-flex.direction-column.p-2 {
+        width: 90%;
+    }
+    .row.p-2 {
+        padding: 0.5rem;
     }
 }
