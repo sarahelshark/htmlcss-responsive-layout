@@ -35,7 +35,8 @@ body{
 /*#endregion common*/
 
 /*#region utilities*/
-*img{
+
+img{
     max-width: 100%;
 }
 
