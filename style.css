@@ -215,6 +215,19 @@ button.more.btn {
 }
 /*#endregion working- fourth section*/
 
+/*#region about us- fifth section*/
+.ceo {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+/*#endregion about us- fifth section*/
+
 /*#region debug */
 
 .debug #site_header .navigation{
