@@ -8,6 +8,7 @@
 :root{
     --resp-primary:#9792E4;
     --respo-secondary:#0084FD;
+    ---respo-card:#B5DDFF;
     --respo-accent:#FCC061;
     --respo-light:#FFFFFF;
     --respo-dark:#212121;
@@ -58,19 +59,6 @@ img{
 .btn-large{
 
 }
-
-
-.container {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.dark-container{
-    width: 100%;
-    justify-content: center;
-    flex-direction: row;
- }
-
 .row {
     display: flex;
     /*gap: 1rem;*/
@@ -96,6 +84,27 @@ img{
 .direction-column{
 flex-direction: column;
 }
+
+/*containers*/
+.dark-container{
+    background-color: var(--resp-primary);
+}
+section.call-to-action.d-flex {
+    background: var(--resp-primary);
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.dark-container{
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+
 /*#endregion utilities*/
 
 
@@ -156,6 +165,11 @@ nav.hidden a{
  .col-6{
     height: 150px;
     width: calc(100% / 12 * 5);
+}
+
+.col-4,.col-6,.col-8{
+    background: var(---respo-card);
+    border-radius: 15px;
 }
 
 /*#endregion featutings- firstsection*/
