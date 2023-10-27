@@ -94,6 +94,9 @@ body{
     border: none;
 }
 
+.direction-column{
+flex-direction: column;
+}
 /*#endregion utilities*/
 
 
@@ -193,6 +196,19 @@ nav.hidden a{
     margin-bottom: 0.5rem;
 }
 /*#endregion testimonials-third section*/
+
+/*#region working- fourth section*/
+.working {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card.d-flex.direction-column {
+    width: 50%;
+}
+/*#endregion working- fourth section*/
+
 /*#region debug */
 
 .debug #site_header .navigation{
