@@ -78,7 +78,8 @@ body{
     /*gap: 1rem;*/
     width: 65%;
     flex-wrap: wrap;
-    margin:0 - 1rem:
+    margin:0 - 1rem;
+    justify-content: center;
 }
 
 .row-no-wrap {
