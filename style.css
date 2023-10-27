@@ -224,7 +224,8 @@ button.more.btn {
 .description {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
+    margin-right: 20px ;
 }
 /*#endregion about us- fifth section*/
 
