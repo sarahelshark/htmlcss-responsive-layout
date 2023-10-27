@@ -53,9 +53,6 @@ body{
 
 }
 
-.btn-small{
-
-}
 
 .btn-large{
 
@@ -229,6 +226,15 @@ button.more.btn {
     margin-right: 20px ;
 }
 /*#endregion about us- fifth section*/
+
+/*#region call to action- last section*/
+section.call-to-action.d-flex {
+    justify-content: center;
+}
+.lg-container.row.direction-column.p-2 {
+    align-items: center;
+}
+/*#endregion call to action- last section*/
 
 /*#region debug */
 
