@@ -155,15 +155,15 @@ nav.hidden a{
     padding-right: 1rem;
 }
 .col-4{
-    height: 150px;
+    height: 200px;
     width: calc(95% / 11 * 3)
 }
 .col-8{
-    height: 150px;
+    height: 200px;
     width: calc(95% / 12 * 6);
 }
  .col-6{
-    height: 150px;
+    height: 200px;
     width: calc(95% / 12 * 4);
 }
 
@@ -172,6 +172,32 @@ nav.hidden a{
     border-radius: 15px;
     margin: 10px;
 }
+.sm-container>img{
+    width: 160px;
+    padding-top:44px;
+    padding-right: 20px;
+}
+.item {
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.item>p{
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.item>h3 {
+    padding-bottom: 10px;
+    padding-top:20px ;
+    font-size:16px;
+}
+.item>button{
+    margin-top: 10px;
+    background-color: var(--respo-secondary);
+    bo
+}
+
+
 
 /*#endregion featutings- firstsection*/
 
