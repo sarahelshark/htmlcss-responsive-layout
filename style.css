@@ -64,7 +64,7 @@ img{
     /*gap: 1rem;*/
     width: 65%;
     flex-wrap: wrap;
-    margin:0 - 1rem;
+    margin:0 -1rem;
     justify-content: center;
 }
 
@@ -156,20 +156,21 @@ nav.hidden a{
 }
 .col-4{
     height: 150px;
-    width: calc(100% / 12 * 4)
+    width: calc(95% / 11 * 3)
 }
 .col-8{
     height: 150px;
-    width: calc(100% / 12 * 7);
+    width: calc(95% / 12 * 6);
 }
  .col-6{
     height: 150px;
-    width: calc(100% / 12 * 5);
+    width: calc(95% / 12 * 4);
 }
 
 .col-4,.col-6,.col-8{
     background: var(---respo-card);
     border-radius: 15px;
+    margin: 10px;
 }
 
 /*#endregion featutings- firstsection*/
