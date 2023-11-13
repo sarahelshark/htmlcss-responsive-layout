@@ -15,7 +15,22 @@
     --respo-secondary-dark:#333333;  /*footer*/
     --respo-text:#677e92;
 }
-
+/*#region scrollbar*/
+::-webkit-scrollbar {
+    width:5px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/*#endregion scrollbar*/
 ul,li,a{
     list-style: none;
     text-decoration: none;
