@@ -13,7 +13,7 @@
     --respo-light:#FFFFFF;
     --respo-dark:#212121;
     --respo-secondary-dark:#333333;  /*footer*/
-    --respo-text:#787878;
+    --respo-text:#677e92;
 }
 
 ul,li,a{
@@ -175,7 +175,8 @@ nav.hidden a{
 .item>p{
     font-size: 14px;
     line-height: 20px;
-
+    font-weight: 500;
+    color: var(--respo-text);
 }
 .item>h3 {
     padding-bottom: 10px;
