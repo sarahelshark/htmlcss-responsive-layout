@@ -47,18 +47,6 @@ img{
 .p-2{
     padding: 2rem;
 }
-.btn-light{
-
-}
-
-.btn-dark{
-
-}
-
-
-.btn-large{
-
-}
 .row {
     display: flex;
     /*gap: 1rem;*/
@@ -547,6 +535,12 @@ section.last.d-flex {
 .item>button{
     margin-top: 10px;
     background-color: var(--respo-secondary);
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
 }
 }
 
