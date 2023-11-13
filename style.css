@@ -519,10 +519,14 @@ section.last.d-flex {
         padding: 0.5rem;
     }
     
-.item {
-    padding-top: 10px;
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding-top: 10px;
     padding-left: 8px;
-}
+    }
 .item>p{
     font-size: 14px;
     line-height: 20px;
@@ -542,6 +546,19 @@ section.last.d-flex {
     border-radius: 20px;
     padding: 10px;
     font-size: 16px;
+}
+.col-8{
+    height:100%;
+}
+
+.sm-container.d-flex {
+    max-height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.sm-container>img {
+    width:80%; 
+    padding-top: 30px;
 }
 }
 
