@@ -20,15 +20,15 @@
     width:5px;
   }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: var(--respo-light); 
   }
    
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background:var(--respo-text); 
   }
   
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: var(--respo-accent); 
   }
 /*#endregion scrollbar*/
 ul,li,a{
