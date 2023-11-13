@@ -193,10 +193,12 @@ nav.hidden a{
     padding-bottom: 10px;
     padding-top:20px ;
     font-size:16px;
+    color: var(--respo-secondary);
 }
 .item>button{
     margin-top: 10px;
     background-color: var(--respo-secondary);
+    color: var(--respo-light);
 }
 
 
@@ -477,7 +479,8 @@ section.last.d-flex {
         margin-top: 2px; 
     }
     .btn{
-        padding: 6px;
+        padding: 4px;
+        font-size: 12px;
     }
     .item>p {
         font-size: 10px;
