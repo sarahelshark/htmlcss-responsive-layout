@@ -245,6 +245,7 @@ nav.hidden a{
     flex-direction: column;
 }
 .development{
+    background-color: var(--respo-light);
     align-items: flex-start;
     padding: 2rem;
     margin-top: 9rem;
@@ -254,6 +255,13 @@ nav.hidden a{
 }
  .row-no-wrap .development{
     border-radius: 25px;
+}
+.development>button{
+    height: 40px;
+    aspect-ratio: 1 / 1 ;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--resp-primary);
 }
 /*#endregion goals-second section*/
 
