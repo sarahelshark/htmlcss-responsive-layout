@@ -217,7 +217,6 @@ nav.hidden a{
 }
 
 .container.d-flex>.item{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
