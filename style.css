@@ -308,8 +308,9 @@ nav.hidden a{
     background-color: var(--resp-primary);
     color: var(--respo-light);
     padding: 2rem;
+    margin-bottom: 25px;
     line-height: 25px;
-    border-radius: 30px;
+    border-radius: 45px;
     font-weight: 300;
     & .uppercase{
         font-weight: 500 ;
@@ -320,6 +321,13 @@ nav.hidden a{
     height: 150px;
     width: 150px;
     object-fit: cover;
+}
+.card.col-3.d-flex>.d-flex.direction-column {
+    justify-content: center;
+    padding: .75rem;
+    & p{
+        padding-bottom: 15px;
+    }
 }
 /*#endregion testimonials-third section*/
 
