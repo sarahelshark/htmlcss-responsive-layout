@@ -282,6 +282,7 @@ nav.hidden a{
 }
 .development>p{
     line-height: 25px;
+    text-align: center;
 }
 .development>.img-container{
     width: 80%;
@@ -296,7 +297,21 @@ nav.hidden a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1.7rem;
+    line-height: 25px;
+    & h2 {
+        color: var(--resp-primary);
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    & h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    & p{
+        text-align: center;
+    }
 }
 .testimonials.row.p-2 {
     flex-direction: column;
