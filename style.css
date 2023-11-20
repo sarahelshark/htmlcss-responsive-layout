@@ -350,11 +350,39 @@ nav.hidden a{
 .dark-container.d-flex> .row.p-2{
     width: 90%;
 }
+.card.d-flex.direction-column.p-2 {
+    background: var(--respo-light);
+    border-radius: 25px;
+    & h2 {
+        font-size: 40px;
+        color: var(--resp-primary);
+    }
+    & h4 {
+        color:var(--resp-primary);
+        font-size: 18px;
+        line-height: 30px;
+    }
+    & p {
+        color: var(--respo-text);
+        font-size: 13px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    & button{
+        background-color: var(--resp-primary);
+    }
+    & a {
+        color: var(--respo-light);
+    }
+}
 .working {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 0 ;
+    font-size: 30px;
+    color: var(--respo-light);
 }
 .card.d-flex.direction-column {
     width: calc((100% / 12) * 3);
