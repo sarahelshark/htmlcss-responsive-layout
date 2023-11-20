@@ -347,6 +347,9 @@ nav.hidden a{
 /*#endregion testimonials-third section*/
 
 /*#region working- fourth section*/
+.dark-container.d-flex> .row.p-2{
+    width: 90%;
+}
 .working {
     width: 100%;
     display: flex;
