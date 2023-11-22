@@ -407,6 +407,17 @@ button.more.btn {
     width: 60%;
     margin-right: 20px ;
 }
+.description>h2{
+color: var(--resp-primary);
+font-size: 40px;
+font-weight: 500;
+padding-bottom: 20px;
+}
+.description>p{
+    line-height: 24px;
+    color: var(--respo-secondary-dark);
+    font-weight: 400;
+}
 .relative{
     position: relative;
     width: fit-content;
@@ -422,6 +433,26 @@ button.more.btn {
     aspect-ratio: 1/ 1;
     width: 150px;
     object-fit: cover;
+}
+.ceo>h4{
+    padding-top: 10px;
+    line-height: 24px;
+    color: var(--resp-primary);
+}
+.ceo>button{
+    background-color: var(--resp-primary);
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    padding: 10px;
+    & a{
+        color: var(--respo-light);
+    }
 }
 /*#endregion about us- fifth section*/
 
