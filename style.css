@@ -407,6 +407,9 @@ button.more.btn {
     width: 60%;
     margin-right: 20px ;
 }
+.ceo>img{
+    border-radius: 50%;
+}
 /*#endregion about us- fifth section*/
 
 /*#region call to action- last section*/
